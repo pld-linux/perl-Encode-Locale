@@ -61,5 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Encode
 %{perl_vendorlib}/Encode/Locale.pm
 %{_mandir}/man3/Encode::Locale.3pm*
