@@ -9,7 +9,7 @@ Summary:	Encode::Locale - Determine the locale encoding
 Summary(pl.UTF-8):	Encode::Locale - określenie kodowania lokalizacji
 Name:		perl-Encode-Locale
 Version:	1.02
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -21,6 +21,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Encode >= 2
 %endif
+Requires:	perl-Encode >= 2.44-2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -61,6 +62,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%dir %{perl_vendorlib}/Encode
 %{perl_vendorlib}/Encode/Locale.pm
 %{_mandir}/man3/Encode::Locale.3pm*
