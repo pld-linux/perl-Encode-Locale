@@ -8,13 +8,13 @@
 Summary:	Encode::Locale - Determine the locale encoding
 Summary(pl.UTF-8):	Encode::Locale - określenie kodowania lokalizacji
 Name:		perl-Encode-Locale
-Version:	1.02
-Release:	2
+Version:	1.03
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Encode/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	96a950ee9b57e47e2b990b4c5dd7bf6e
+# Source0-md5:	de8422d068634e7c1068dab4e18b452f
 URL:		http://search.cpan.org/dist/Encode-Locale/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
