@@ -4,7 +4,6 @@
 #
 %define		pdir	Encode
 %define		pnam	Locale
-%include	/usr/lib/rpm/macros.perl
 Summary:	Encode::Locale - Determine the locale encoding
 Summary(pl.UTF-8):	Encode::Locale - określenie kodowania lokalizacji
 Name:		perl-Encode-Locale
